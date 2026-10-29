@@ -142,7 +142,7 @@ details.dt>summary::-webkit-details-marker{display:none}details.dt>summary::afte
 const $=s=>document.querySelector(s),esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const norm=s=>String(s||'').trim().toLowerCase().replace(/\s+/g,' '),slug=s=>norm(s).replace(/[^a-z0-9]+/g,'-').slice(0,90);
 const fmt=t=>new Date(t).toLocaleString('id-ID',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
-const SB='https://ymirdbifsnerkizokaka.supabase.co',KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InltaXJkYmlmc25lcmtpem9rYWthIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIzOTI3NjYsImV4cCI6MjEwNzk2ODc2Nn0.jlC7z_KFcFpMIAwNwAt3VILYn7KX96aPB2XUu1zGUiw';
+const SB='https://hwheahgadhjzqwmyoattz.supabase.co',KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndoZWFoZ2FkaGp6cXdteW9hdHR6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMyMzI0ODcsImV4cCI6MjEwODgwODQ4N30.V6vBFatwxnCLXjlAYgb2lVsmBHcER_TkQyKbIuX1dRw';
 const S={sessions:{},people:{},att:{},cfg:{},fbk:{}},PS={ss:{},at:{},lock:false,rd:'',fb:null};
 let cur='',me=null,ov='',sig=false,tok=null,rt=null,exp=0,eoOn=false,off=0;
 const hs=()=>new URLSearchParams(location.hash.slice(1)).get('s')||new URLSearchParams(location.search).get('s')||'';
