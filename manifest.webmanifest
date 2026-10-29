@@ -1,0 +1,25 @@
+{
+ "name": "GenBI in ACTION",
+ "short_name": "GenBI Presensi",
+ "description": "Presensi, rundown, dan info peserta GenBI in ACTION",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#00335c",
+ "theme_color": "#00548f",
+ "lang": "id",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
